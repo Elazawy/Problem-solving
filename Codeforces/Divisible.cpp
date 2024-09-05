@@ -2,7 +2,7 @@
 // URL : https://codeforces.com/group/MWSDmqGsZm/contest/223338/problem/M
 // Memory limit : 256
 // Time limit : 1000
-// Date: Mon Sep  3 2024 
+// Date: thur Sep  5 2024 
 
 // Used libraries
 #include<iostream>
