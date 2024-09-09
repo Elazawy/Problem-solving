@@ -1,6 +1,6 @@
 # Problem name : Big Add and Multiply
 # URL : https://codeforces.com/group/MWSDmqGsZm/contest/223338/problem/O
-Date : sun sep 8 2024
+# Date : Mon Sep 8 2024
 
 num = int(input())
 print(num + 9999)
