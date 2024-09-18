@@ -1,4 +1,4 @@
-// Problem name : Print Even Indices
+// Problem name : Invert Pyramid
 // URL : https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/H
 // Date : Wed Sep 18 2024
 // time limit : 1
