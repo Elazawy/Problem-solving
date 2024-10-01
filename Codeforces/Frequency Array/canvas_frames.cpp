@@ -2,7 +2,7 @@
 // URL : https://codeforces.com/group/isP4JMZTix/contest/380288/problem/C
 // time limit : 1 
 // memory limit 256
-// Date : Sun Sep 29 2024 
+// Date : Mon Sep 30 2024 
 
 #include<iostream>
 #include<vector>
