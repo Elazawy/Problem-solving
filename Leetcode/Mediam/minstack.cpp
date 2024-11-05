@@ -1,3 +1,6 @@
+// Proplem name : Min Stack
+// URL : https://leetcode.com/problems/min-stack/description/
+// Date : Thu Nov 5 2024
 #include<iostream>
 #include<stack>
 using namespace std;
