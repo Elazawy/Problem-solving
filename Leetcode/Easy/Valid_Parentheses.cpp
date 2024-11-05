@@ -1,3 +1,6 @@
+// Proplem name : Valid Parentheses
+// URL : https://leetcode.com/problems/valid-parentheses/description/
+// Date : Thu Nov 5 2024
 #include<iostream>
 #include<stack>
 using namespace std;
