@@ -1,0 +1,19 @@
+// Name: k_closest_points_to_origin
+// link: https://leetcode.com/problems/k-closest-points-to-origin/
+class Solution {
+public:
+    vector<vector<int>> kClosest(vector<vector<int>>& points, int k) {
+        std::priority_queue<pair<int, std::vector<int>>, std::vector<pair<int, std::vector<int>>>, std::greater<>> minHeap;
+        for(const auto& point: points){
+            int x = point[0],y = point[1];
+            int distance = x*x + y*y;
+            minHeap.push({distance, point});
+        }
+        vector<vector<int>> res;
+        while(k--){
+            res.push_back(minHeap.top().second);
+            minHeap.pop();
+        }
+        return res;
+    }
+};
