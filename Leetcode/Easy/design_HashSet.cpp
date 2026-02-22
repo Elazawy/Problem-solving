@@ -1,3 +1,6 @@
+// URL -> https://leetcode.com/problems/design-hashset/description/
+// Date: 2 22 2026
+
 class MyHashSet {
 public:
     vector<vector<int>> keys;
