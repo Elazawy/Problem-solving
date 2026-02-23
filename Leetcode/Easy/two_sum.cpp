@@ -29,3 +29,24 @@ public:
         return indexes;
     }
 };
+
+// Using HashMap
+// Date: 2 23 2026
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map<int, int> map_nums;
+        
+        for(int i=0; i<nums.size(); i++){
+            int complement = target - nums[i];
+            
+            if(map_nums.count(complement)){
+                return {map_nums[complement], i};
+            }
+            
+            map_nums.insert(make_pair(nums[i], i));
+            
+        }
+        return {};
+    }
+};
