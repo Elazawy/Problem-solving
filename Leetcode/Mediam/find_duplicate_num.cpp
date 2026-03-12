@@ -4,7 +4,7 @@
 class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
-        set<int> unique_nums;
+        unordered_set<int> unique_nums;
         for(const int& num : nums) {
             if(unique_nums.count(num)) return num;
             unique_nums.insert(num);
